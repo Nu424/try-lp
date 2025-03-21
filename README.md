@@ -22,12 +22,12 @@
 
 1. リポジトリをクローン
 ```bash
-git clone https://github.com/Nu424/oceans-whisper.git
+git clone https://github.com/Nu424/try-lp.git
 ```
 
 2. プロジェクトディレクトリに移動
 ```bash
-cd oceans-whisper
+cd try-lp
 ```
 
 3. Live Serverなどを使用してローカルサーバーを起動
@@ -39,7 +39,7 @@ index.htmlを右クリックして「Live Serverで開く」を選択してく�
 このプロジェクトはGitHub Pagesを使用してデプロイされています。
 以下のURLでアクセスできます：
 
-https://Nu424.github.io/oceans-whisper/
+https://Nu424.github.io/try-lp/
 
 ## ライセンス
 
