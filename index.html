@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean's Whisper - ファンタジー世界の水系料理店</title>
+    <meta name="description" content="神秘的な水の世界から届く、魔法のような味わいをお届けする料理店です。">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header__inner">
+            <h1 class="header__logo">Ocean's Whisper</h1>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li><a href="#home">ホーム</a></li>
+                    <li><a href="#concept">コンセプト</a></li>
+                    <li><a href="#menu">メニュー</a></li>
+                    <li><a href="#faq">よくある質問</a></li>
+                    <li><a href="#access">アクセス</a></li>
+                </ul>
+            </nav>
+            <button class="header__menu-btn" aria-label="メニュー">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <!-- ヒーローセクション -->
+        <section id="home" class="hero">
+            <div class="hero__content">
+                <h2 class="hero__title">海の恵みを、<br>幻想の味わいへ</h2>
+                <p class="hero__subtitle">神秘的な水の世界から届く、魔法のような一皿</p>
+                <a href="#reservation" class="btn btn--primary">ご予約はこちら</a>
+            </div>
+        </section>
+
+        <!-- コンセプト -->
+        <section id="concept" class="concept">
+            <div class="container">
+                <h2 class="section-title">物語</h2>
+                <div class="concept__content">
+                    <div class="concept__text">
+                        <p>深き海の底より湧き出る聖なる泉の水。<br>
+                        古より伝わる水の精霊たちの知恵と、<br>
+                        現代の技が織りなす至高の一皿を<br>
+                        あなたへお届けします。</p>
+                    </div>
+                    <div class="concept__features">
+                        <div class="feature">
+                            <i class="fas fa-water"></i>
+                            <h3>神秘の水</h3>
+                            <p>聖なる泉から汲み上げた特別な水を使用</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-fish"></i>
+                            <h3>選りすぐりの食材</h3>
+                            <p>伝説の漁師たちが選び抜いた極上の海の幸</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-magic"></i>
+                            <h3>魔法の調理法</h3>
+                            <p>代々受け継がれる秘伝の調理技法</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- メニュー -->
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">メニュー</h2>
+                <div class="menu__grid">
+                    <div class="menu-item">
+                        <div class="menu-item__image">
+                            <img data-src="assets/images/menu-pearl-soup.jpg" alt="人魚姫の真珠スープ" class="menu-item__img">
+                        </div>
+                        <div class="menu-item__content">
+                            <h3>人魚姫の真珠スープ</h3>
+                            <p>真珠貝から抽出したエッセンスと、7種の海藻を使用した神秘的なスープ</p>
+                            <span class="menu-item__price">¥2,800</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item__image">
+                            <img data-src="assets/images/menu-coral-pasta.jpg" alt="珊瑚の輝きパスタ" class="menu-item__img">
+                        </div>
+                        <div class="menu-item__content">
+                            <h3>珊瑚の輝きパスタ</h3>
+                            <p>深海の珊瑚から抽出した特製ソースと、色とりどりの海の幸を贅沢に使用したパスタ</p>
+                            <span class="menu-item__price">¥3,200</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item__image">
+                            <img data-src="assets/images/menu-crystal-fish.jpg" alt="クリスタルフィッシュの宝石箱" class="menu-item__img">
+                        </div>
+                        <div class="menu-item__content">
+                            <h3>クリスタルフィッシュの宝石箱</h3>
+                            <p>透明な身を持つ幻の深海魚を、カラフルな海の野菜とともに水晶のような特製ジュレで閉じ込めました</p>
+                            <span class="menu-item__price">¥4,500</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item__image">
+                            <img data-src="assets/images/menu-seafoam-dessert.jpg" alt="海の泡のデザート" class="menu-item__img">
+                        </div>
+                        <div class="menu-item__content">
+                            <h3>海の泡のデザート</h3>
+                            <p>海水から抽出した塩と、神秘の泉の水を使用した、ふわふわの口どけのムースデザート</p>
+                            <span class="menu-item__price">¥1,800</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2 class="section-title">よくある質問</h2>
+                <div class="faq__list">
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            <h3>予約は必要ですか？</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p>ディナータイムは予約制となっております。ランチタイムは予約なしでもご利用いただけます。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            <h3>料理の価格帯を教えてください</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p>ランチタイム：¥2,800〜¥4,500<br>
+                            ディナータイム：¥5,800〜¥12,000<br>
+                            コースメニュー：¥15,000〜</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            <h3>アレルギー対応は可能ですか？</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p>ご予約時にアレルギーについてお申し付けください。可能な限り対応させていただきます。特に魚介類アレルギーの方は必ずお知らせください。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            <h3>ドレスコードはありますか？</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p>特別なドレスコードは設けておりませんが、ディナータイムはスマートカジュアル以上の装いをお願いいたします。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            <h3>個室は利用できますか？</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p>2名様〜8名様までご利用いただける個室をご用意しております。個室料は別途¥3,000（税込）となります。ご予約時にお申し付けください。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- アクセス -->
+        <section id="access" class="access">
+            <div class="container">
+                <h2 class="section-title">アクセス</h2>
+                <div class="access__content">
+                    <div class="access__info">
+                        <h3>Ocean's Whisper</h3>
+                        <p>〒123-4567<br>
+                        ファンタジア県マーメイド市パール通り1-2-3<br>
+                        水晶宮殿ビル 1F</p>
+                        <p>
+                            <i class="fas fa-train"></i> マーメイド駅から徒歩5分<br>
+                            <i class="fas fa-clock"></i> 営業時間：11:00-22:00（L.O. 21:00）<br>
+                            <i class="fas fa-calendar"></i> 定休日：水曜日
+                        </p>
+                    </div>
+                    <div class="access__map">
+                        <!-- 地図は後ほど追加 -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h2 class="footer__logo">Ocean's Whisper</h2>
+                    <p>神秘的な水の世界から、<br>魔法のような味わいをお届けします。</p>
+                </div>
+                <div class="footer__social">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <p class="footer__copyright">&copy; 2024 Ocean's Whisper All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
